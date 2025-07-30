@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        #main{
+            margin-left: 10%;
+           /* border: 2px solid blue;*/
+            height: 90%;
+            width: 80%;
+
+        }
+        #box1{
+            height: 100%;
+            width: 30%;
+            /*border: 2px solid;*/
+            float: left;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./photo-1622579522991-f2c1089b8fc2.avif);
+        }
+        #box2{
+            margin-left: 2%;
+             height: 100%;
+            width: 68%;
+           /* border: 2px solid;*/
+            float: left;
+
+        }
+        #b1{
+          /*  border: 2px solid;*/
+            height: 100%;
+           width: 50%;
+           float: left;
+        }
+        #b2{
+           
+            /* border: 2px solid; */
+            height: 100%;
+           width: 50%;
+           float: left;
+
+        }
+        #c1{
+            margin-left: 2%;
+            margin-top: 3%;
+           /* border: 2px solid;*/
+            height: 15%;
+            width: 80%;
+        }
+        #c2{
+            margin-top: 7%;
+            margin-left: 2%;
+           /* border: 2px solid;*/
+            height: 60%;
+
+
+        }
+        #str1{
+            color: red;
+            padding-left: 2%;
+
+        }
+        #c3{
+            margin-left: 2%;
+            margin-top: 3%;
+            /*border: 2px solid;*/
+            height: 5%;
+            width: 90%;
+
+
+        }
+        #c4{
+            margin-left: 2%;
+            margin-top: 3%;
+           /* border: 2px solid;*/
+            height: 5%;
+            width: 90%;
+
+        }
+        #d1{
+            /*border: 2px solid;*/
+            margin: 2%;
+            height: 22%;
+            margin-top: 5%;
+        }
+        #d2{
+           /* border: 2px solid;*/
+            margin: 2%;
+            height: 22%;
+
+        }
+        #d3{
+           /* border: 2px solid;*/
+            margin: 2%;
+            height: 22%;
+        }
+        #d4{
+            /* border: 2px solid;*/
+            margin: 2%;
+            height: 22%;
+        }
+        #left{
+            margin-top: 3%;
+            margin-left: 2%;
+           /* border: 2px solid;*/
+            height: 50%;
+            width: 20%;
+            float: left;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./download\ \(5\).jpg);
+        }
+        #right{
+            margin-right: 2%;
+             margin-top: 3%;
+           /* border: 2px solid;*/
+            height: 50%;
+            width: 60%;
+            float: right;
+            
+
+        }
+        #l1{
+             margin-top: 3%;
+            margin-left: 2%;
+           /* border: 2px solid;*/
+            height: 50%;
+            width: 20%;
+            float: left;
+             background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./images\ \(8\).jpg);
+
+
+        }
+        #r1{
+             margin-right: 2%;
+             margin-top: 3%;
+           /* border: 2px solid;*/
+            height: 50%;
+            width: 60%;
+            float: right;
+
+        }
+        #l2{
+              margin-top: 3%;
+            margin-left: 2%;
+           /* border: 2px solid;*/
+            height: 50%;
+            width: 20%;
+            float: left;
+             background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./images\ \(10\).jpg);
+
+        }
+        #r2{
+             margin-right: 2%;
+             margin-top: 3%;
+           /* border: 2px solid;*/
+            height: 50%;
+            width: 60%;
+            float: right;
+
+
+        }
+        #l3{
+             margin-top: 3%;
+            margin-left: 2%;
+          /* border: 2px solid;*/
+            height: 50%;
+            width: 20%;
+            float: left;
+             background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./images\ \(7\).jpg);
+
+        }
+        #r3{
+            margin-right: 2%;
+             margin-top: 3%;
+           /* border: 2px solid;*/
+            height: 50%;
+            width: 60%;
+            float: right;
+
+
+
+        }
+        #sec2{
+           /* border: 2px solid red;*/
+            height: 100%;
+            width: 100%;
+
+        }
+       #main2{
+        margin-left: 10%;
+        width: 70%;
+        margin-top: 2%;
+       /* border: 2px solid blue;*/
+        height: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(./photo-1514193880418-896682417f97.avif);
+       }
+       #p1{
+        margin-left: 29%;
+        margin-top: 2%;
+      /* border: 2px solid;*/
+        width: 30%;
+        height: 30%;
+        color: white;
+        text-align: center;
+       
+       }
+       #p2{
+        margin-top: 5%;
+        margin-left: 20%;
+        /*border: 2px solid rebeccapurple;*/
+        height: 90%;
+        width: 70%;
+        border-radius: 10%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(./photo-1505691723518-36a5ac3be353.avif);
+        
+       }
+       #p3{
+       /* border: 2px solid palevioletred
+        ;*/
+        margin-left: 15%;
+        margin-top: 15%;
+        height: 14%;
+        width: 60%;
+       }
+       #s1{
+       /* border-radius: 5%;*/
+        margin-top: 1%;
+        margin-left: 2%;
+        width: 25%;
+        border: 2px solid;
+        height: 80%;
+        float: left;
+       }
+       #s2{
+       /* border-radius: 5%;*/
+        margin-top: 1%;
+        margin-left: 2%;
+        width: 70%;
+        border: 2px solid;
+        height: 80%;
+        float: right;
+
+       }
+       #k1{
+       /*border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: left;
+
+       }
+       #k2{
+       /* border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: right;
+        margin-right: 2%;
+
+       }
+       #g1{
+        margin-top: 2%;
+       /* border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: left;
+        text-align: center;
+        font-size: 400%;
+     color: red;
+
+       }
+       #g2{
+         margin-top: 2%;
+       /* border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: right;
+        padding-top: 3%;
+        text-align: center;
+
+       }
+       #z1{
+        margin-top: 2%;
+       /*border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: left;
+        text-align: center;
+        font-size: 400%;
+     color: red;
+
+
+
+       }
+       #z2{
+        margin-top: 2%;
+      /* border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: right;
+        padding-top: 3%;
+        padding-top: 3%;
+        text-align: center;
+
+       }
+       #y1{
+        margin-top: 2%;
+       /* border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: left;
+        text-align: center;
+        font-size: 400%;
+     color: red;
+
+
+       }
+       #y2{
+        margin-top: 2%;
+        /*border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: right;
+        padding-top: 3%;
+        padding-top: 3%;
+        text-align: center;
+
+       }
+       #sec3{
+
+       /* border: 2px solid blue;*/
+        height: 100%;
+        width: 100%;
+       }
+       #main3{
+        margin-right: 7%;
+        margin-left: 7%;
+        margin-top: 3%;
+       /* border: 2px solid black;*/
+        height: 90%;
+
+       }
+       #m1{
+       /* border: 2px solid purple;*/
+        height: 19%;
+       }
+       #m2{
+       /* border: 2px solid hotpink;*/
+        height: 100%;
+        width: 30%;
+        float: left;
+
+       }
+       #m3{
+      /* border: 2px solid hotpink;*/
+        height: 100%;
+        width: 50%;
+        float: right;
+
+       }
+       #m4{
+        margin-left: 9%;
+       /* border: 2px solid black;*/
+        height: 50%;
+        width: 20%;
+        float: left;
+        color: white;
+        background-color: red;
+        text-align: center;
+        padding-top: 2%;
+       }
+       #m5{
+       /* border: 2px solid black;*/
+        height: 50%;
+        width: 60%;
+        float: right;
+        
+       }
+       #n1{
+      /*border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: left;
+        text-align: center;
+        background-color: black;
+        color: white;
+         padding-top: 2%;
+
+       }
+     #n2{
+       /* border: 2px solid blue;*/
+        height: 100%;
+        width: 40%;
+        float: right;
+        text-align: center;
+        background-color: black;
+        color: white;
+         padding-top: 2%;
+
+
+     }
+     #contener{
+       /* border: 2px solid blue;*/
+        height: 81%;
+     }
+     #con1{
+       /* border: 2px solid;*/
+        height: 100%;
+        width: 30%;
+        float: left;
+     }
+     .con2{
+       /* border: 2px solid;*/
+        width: 100%;
+        height: 20%;
+
+     }
+     #con3{
+        /*border: 2px solid yellow;*/
+        height: 100%;
+       width:70%;
+        float: right;
+     }
+     #con4{
+        /* border: 2px solid yellow;*/
+        height: 100%;
+        width: 50%;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./istockphoto-1298112055-612x612.webp);
+
+     }
+     #con5{
+       /* border: 2px solid yellow;*/
+        height: 100%;
+        width: 50%;
+        float: right;
+        text-align: center;
+
+     }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="main">
+            <div id="box1"></div>
+            <div id="box2">
+                <div id="b1">
+                    <div id="c1"><h3><b><strong>BEST
+                        <BR>
+                            APPARTMENT<BR> SEA VIEW
+                    </strong></b></h3></div>
+                    <div id="c2"><strong id="str1" style="font-size: 40px;" >best useful links?</strong><BR><BR>
+                    <br>Lorem ipsum dolor, sit amet <strong style="color: black;">oluptates ipsam enim commodi accusamus laudantium</strong>consectetur adipisicing elit. Blanditiis architecto cumque cum assumenda, ea ducimus quas vel harum eveniet numquam inventore distinctio voluptates ipsam enim commodi accusamus laudantium voluptatibus voluptas.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis architecto cumque cum assumenda, ea ducimus quas vel harum eveniet numquam inventore distinctio <strong style="color: blue;">oluptates ipsam enim commodi accusamus laudantium</strong>voluptates ipsam enim commodi accusamus laudantium voluptatibus volup Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis architecto cumque cum assumenda, ea ducimus quas vel harum eveniet numquam inventore distinctio voluptates ipsam enim commodi accusamus laudantium voluptatibus volup
+                </div>
+                    <div id="c3">HOW DOES THIS WORK?</div>
+                    <div id="c4"> WHY IS VILA AGENCY THE BEST?</div>
+
+                </div>
+                <div id="b2">
+                    <div id="d1">
+                        <div id="left"></div>
+                        <div id="right" style="text-align: center;"><strong>250 m<sup>2</sup> <br><p>total amount</p></strong></div>
+                    </div>
+                    <div id="d2">
+                        <div id="l1"></div>
+                        <div id="r1" style="text-align: center;">contract<br>
+                        <p>cantect ready</p></div>
+                    </div>
+                    <div id="d3">
+                        <div id="l2"></div>
+                        <div id="r2"  style="text-align: center;">payment<br>
+                        payment procces</div>
+                    </div>
+                    <div id="d4">
+                        <div id="l3"></div>
+                        <div id="r3"  style="text-align: center;"> safety<br>
+                        24/7 under contect</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="sec2">
+        <div id="main2">
+            <div id="p1"><p> <strong style="color: red; font-size:50px;">video view</strong><br> <strong style="font-size: 25px;">GET COLOSER VIEW &<BR>
+            Diffrent feeling</strong>
+                
+
+            </div>
+            <div id="p2"></div>
+
+        </div>
+        <div id="p3">
+            <div id="s1">
+                <div id="g1">34</div>
+                <div id="g2">Building<br>finished now
+                </div>
+
+            </div>
+            <div id="s2">
+                <div id="k1">
+                    <div id="z1">12</div>
+                    <div id="z2">years<br>
+                        Experince
+                    </b></div>
+                </div>
+                <div id="k2">
+                    <div id="y1">24</div>
+                    <div id="y2">Awwards<br>
+                    won 2023</div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <section id="sec3">
+        <div id="main3">
+            <div id="m1">
+                <div id="m2"><strong style="font-size: 30px;" >Find your Best deal<br>right now!</strong><br>
+                </div>
+                <div id="m3">
+                    <div id="m4"> Appotment
+
+                    </div>
+                    <div id="m5">
+                        <div id="n1"><b>villo</b></div>
+                        <div id="n2"> <b>Penthouse</b></div>
+                    </div>
+                   
+                </div>
+
+
+            </div>
+            <div id="contener">
+                <div id="con1">
+                    <div class="con2"><pre>total flat space <b style="font-size: 30px;">      185 m<sup>2</sup></b></pre></div>
+                    <div class="con2"><pre>floor number<b style="font-size: 30px;" >          26th</b></pre></div>
+                    <div class="con2"> <pre>Number of rooms <b style="font-size: 30px;">       4</b></pre></div>
+                    <div class="con2"><pre> PARKING AVAILABE<b style="font-size: 30px;" >        YES</b></pre></div>
+                    <div class="con2"><PRE>payment<b style="font-size: 30px;">            bank</b></PRE></div>
+                </div>
+                <div id="con3">
+                    <div id="con4"></div>
+                    <div id="con5">
+                        <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, amet!</strong>
+                        <br><br><pre>Lorem ipsum dolor sit amet consectetur adipisicing 
+3elit. Rerum sed quos iusto quibusdam. Tempora ipsam debitis 
+ laborum. Tempore, veniam quos. Fugit molestias, obcaecati c
+veritatis asperiores libero. Libero, ratione facilis.
+<br><br><br>
+elit. Rerum sed quos iusto quibusdam. Tempora ipsam debitis 
+ laborum. Tempore, veniam
+ elit. Rerum sed quos iusto quibusdam. Tempora ipsam debitis 
+ laborum. Tempore, veniam
+ elit. Rerum sed quos iusto quibusdam. Tempora ipsam debitis 
+ laborum. Tempore, veniam
+
+ elit. Rerum sed quos iusto quibusdam. Tempora ipsam debitis 
+ laborum. Tempore, veniam
+
+ elit. Rerum sed quos iusto quibusdam. Tempora ipsam debitis 
+ laborum. Tempore, veniam
+
+ elit. Rerum sed quos iusto quibusdam. Tempora ipsam debitis 
+ laborum. Tempore, veniam
+</pre>
+                    </div>
+
+                </div>
+                
+
+            </div>
+            
+
+        </div>
+
+    </section>
+    
+</body>
+</html>
